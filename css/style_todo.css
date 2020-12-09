@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-size: cover;
+    background-attachment:fixed;
+}
+/* Table styling */
+table{ 
+    margin: 0 auto; 
+    font-size: large; 
+    border: 1px solid black; 
+} 
+
+td{ 
+    background-color: #E4F5D4; 
+    border: 1px solid black; 
+    font-weight: lighter;
+} 
+
+th, td{ 
+    font-weight: bold; 
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center; 
+} 
+/* Checkbox styling */
+input[type="checkbox"][readonly]{
+    pointer-events: none;
+}
